@@ -6,9 +6,8 @@
         {
 
             Console.WriteLine("Hello! Please choose between numbers 1 - 6 to view a school subject.");
-            int userAnswer = int.Parse(Console.ReadLine().ToLower());
+            int userAnswer = int.Parse(Console.ReadLine());
 
-            
             switch (userAnswer)
             {
                 case 1:
